@@ -48,5 +48,3 @@ for i in range(181,270):
     liste3.append(i)
 for i in range(271,361):
     liste4.append(i)
-time.sleep(2)
-
