@@ -16,4 +16,3 @@ n1= sphere(pos=vector(250,250*3**0.5,0),radius = 250,text="proton1",color = colo
 n2= sphere(pos=vector(250,-250*3**0.5,0),radius = 250,text="proton1",color = color.purple)
 n3= sphere(pos=vector(70,-150*3**0.5-50,-350),radius = 250,text="proton1",color = color.purple)
 n4= sphere(pos=vector(250,-500,250*3**0.5),radius = 250,text="proton1",color = color.purple)
-p5= sphere(pos=vector(650,-300,250*3**0.5-70),radius = 250,text="proton1",color = color.blue)
