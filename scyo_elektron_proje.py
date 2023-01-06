@@ -49,3 +49,24 @@ for i in range(181,270):
 for i in range(271,361):
     liste4.append(i)
 time.sleep(2)
+#liste: for döngüsü her döndüğünde elektronların merkez etrafında taradığı açıları içeriyor.
+#Not1: listelerin içindeki değerlerin tanjantı hesaplanacağı için 90 ve 270 değerlerini içermiyorlar(tan(90),tan(270)=Tanımsız)
+#not2: yörünge yarıçapı katmanların(n=1,2,3..) karesiyle doğru orantılı.Orantı sabiti(a0)=3000 kabul edildi.
+while True:
+    #1.Bölge
+    for açi in liste1:
+        rate(500)
+        radyan = 180/açi 
+        tanj = (math.tan(math.pi/radyan))
+        a =(((3000**2)/(1+(tanj)**2))**0.5)
+        b =(((12000**2)/(1+(tanj)**2))**0.5)
+        e1.pos.x = a
+        e1.pos.y = a*tanj
+        e2.pos.x = -a 
+        e2.pos.z = -a*tanj
+        e3.pos.y = b*tanj 
+        e3.pos.z = -b
+        e4.pos.z = b 
+        e4.pos.x = b*tanj
+        e5.pos.x = b
+        e5.pos.y = b*tanj
