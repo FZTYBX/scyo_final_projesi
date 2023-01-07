@@ -35,7 +35,6 @@ dönen = sphere(pos = vector(12000*(2**0.5)/2,0,12000*(2**0.5)/2),radius = 300,m
 dönen1 = sphere(pos = vector(-12000*(2**0.5)/2,0,12000*(2**0.5)/2),radius = 300,make_trail=True,trail_type="points")
 dönen2 = sphere(pos = vector(12000*(2**0.5)/2,0,-12000*(2**0.5)/2),radius = 300,make_trail=True,color =color.red,trail_type="points")
 dönen3 = sphere(pos = vector(-12000*(2**0.5)/2,0,-12000*(2**0.5)/2),radius = 300,make_trail=True,color = color.red,trail_type="points")
-
 liste1 = []
 time.sleep(2) 
 liste2 = []
