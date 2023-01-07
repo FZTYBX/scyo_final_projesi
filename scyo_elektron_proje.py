@@ -87,3 +87,4 @@ while True:
     #2.Bölge
     for açi in liste2:
         rate(500)
+        radyan = 180/açi 
