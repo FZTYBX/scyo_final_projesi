@@ -93,3 +93,11 @@ while True:
         b =(((12000**2)/(1+(tanj)**2))**0.5)
         e1.pos.x = -a
         e1.pos.y = -a*tanj
+        e2.pos.x = a 
+        e2.pos.z = a*tanj
+        e3.pos.y = -b*tanj 
+        e3.pos.z = b
+        e4.pos.z = -b 
+        e4.pos.x = -b*tanj
+        e5.pos.x = -b
+        e5.pos.y = -b*tanj
