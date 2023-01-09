@@ -86,4 +86,10 @@ while True:
         dönen3.pos.z = -math.sin(math.pi/radyan)*12000
     #2.Bölge
     for açi in liste2:
-        rate(500) 
+        rate(500)
+        radyan = 180/açi 
+        tanj = (math.tan(math.pi/radyan))
+        a =(((3000**2)/(1+(tanj)**2))**0.5)
+        b =(((12000**2)/(1+(tanj)**2))**0.5)
+        e1.pos.x = -a
+        e1.pos.y = -a*tanj
