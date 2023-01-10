@@ -116,3 +116,7 @@ while True:
     #3.Bölge
     for açi in liste3:
         rate(500)
+        radyan = 180/açi 
+        tanj = (math.tan(math.pi/radyan))
+        a =(((3000**2)/(1+(tanj)**2))**0.5)
+        b =(((12000**2)/(1+(tanj)**2))**0.5)
