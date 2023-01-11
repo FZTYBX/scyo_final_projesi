@@ -120,3 +120,7 @@ while True:
         tanj = (math.tan(math.pi/radyan))
         a =(((3000**2)/(1+(tanj)**2))**0.5)
         b =(((12000**2)/(1+(tanj)**2))**0.5)
+        e1.pos.x = -a
+        e1.pos.y = -a*tanj
+        e2.pos.x = a 
+        e2.pos.z = a*tanj
