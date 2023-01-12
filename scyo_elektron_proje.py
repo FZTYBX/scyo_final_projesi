@@ -130,3 +130,6 @@ while True:
         e4.pos.x = -b*tanj
         e5.pos.x = -b
         e5.pos.y = -b*tanj
+        dönen.pos.x = math.cos(math.pi/radyan)*12000*(2**0.5)/2
+        dönen.pos.z = math.cos(math.pi/radyan)*12000*(2**0.5)/2
+        dönen.pos.y =math.sin(math.pi/radyan)*12000
