@@ -142,3 +142,7 @@ while True:
         dönen3.pos.x = math.cos(math.pi/radyan)*12000*(2**0.5)/2
         dönen3.pos.y = math.cos(math.pi/radyan)*12000*(2**0.5)/2
         dönen3.pos.z = -math.sin(math.pi/radyan)*12000
+        #4.Bölge
+    for açi in liste4:
+        rate(500)
+        radyan = 180/açi 
