@@ -55,7 +55,9 @@ time.sleep(2)
 #not2: yörünge yarıçapı katmanların(n=1,2,3..) karesiyle doğru orantılı.Orantı sabiti(a0)=3000 kabul edildi.
 
 while True:
-    #1.Bölge
+
+#1.Bölge
+
     for açi in liste1:
         rate(500)
         radyan = 180/açi 
@@ -84,7 +86,9 @@ while True:
         dönen3.pos.x = math.cos(math.pi/radyan)*12000*(2**0.5)/2
         dönen3.pos.y = math.cos(math.pi/radyan)*12000*(2**0.5)/2
         dönen3.pos.z = -math.sin(math.pi/radyan)*12000
-    #2.Bölge
+
+#2.Bölge
+
     for açi in liste2:
         rate(500)
         radyan = 180/açi 
@@ -113,7 +117,9 @@ while True:
         dönen3.pos.x = math.cos(math.pi/radyan)*12000*(2**0.5)/2
         dönen3.pos.y = math.cos(math.pi/radyan)*12000*(2**0.5)/2
         dönen3.pos.z = -math.sin(math.pi/radyan)*12000
-    #3.Bölge
+
+#3.Bölge
+
     for açi in liste3:
         rate(500)
         radyan = 180/açi 
@@ -142,7 +148,9 @@ while True:
         dönen3.pos.x = math.cos(math.pi/radyan)*12000*(2**0.5)/2
         dönen3.pos.y = math.cos(math.pi/radyan)*12000*(2**0.5)/2
         dönen3.pos.z = -math.sin(math.pi/radyan)*12000
-        #4.Bölge
+
+#4.Bölge
+
     for açi in liste4:
         rate(500)
         radyan = 180/açi 
