@@ -167,3 +167,4 @@ while True:
         e4.pos.x = b*tanj
         e5.pos.x = b
         e5.pos.y = b*tanj
+        dönen.pos.x = math.cos(math.pi/radyan)*12000*(2**0.5)/2
