@@ -163,4 +163,5 @@ while True:
         e2.pos.z = -a*tanj
         e3.pos.y = b*tanj 
         e3.pos.z = -b
-        e4.pos.z = b 
+        e4.pos.z = b
+        e4.pos.x = b*tanj
