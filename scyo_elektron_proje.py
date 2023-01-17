@@ -1,5 +1,7 @@
 # FİNAL PROJESİ
 
+# Mouse tekerleği ile yörüngeler arasında geçiş yapıyoruz
+
 from vpython import *
 import time
 import math
