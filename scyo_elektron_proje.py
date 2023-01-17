@@ -170,3 +170,5 @@ while True:
         dönen.pos.x = math.cos(math.pi/radyan)*12000*(2**0.5)/2
         dönen.pos.z = math.cos(math.pi/radyan)*12000*(2**0.5)/2
         dönen.pos.y = math.sin(math.pi/radyan)*12000
+        dönen1.pos.x = -math.cos(math.pi/radyan)*12000*(2**0.5)/2
+        dönen1.pos.z = math.cos(math.pi/radyan)*12000*(2**0.5)/2
