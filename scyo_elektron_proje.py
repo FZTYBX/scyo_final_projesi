@@ -1,6 +1,7 @@
 # FİNAL PROJESİ
 
 # Mouse tekerleği ile yörüngeler arasında geçiş yapıyoruz
+# Sağ tık ile yörüngelerin etrafında dolaşma
 
 from vpython import *
 import time
